@@ -15,7 +15,7 @@
 
 ### Steps
 
-1. **Connect the postgre DB to servers .env file**
+1. **Connect the postgre DB to servers setting up .env file with `DATABASE_URL="postgresql://Owner:yourPassword@localhost:thePortNumber/dbName?schema=public"` **
 2. **Clone the repository:**
    ```bash
    git clone https://github.com/SadeeMsr/inventory-management-system
