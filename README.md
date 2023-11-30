@@ -34,18 +34,18 @@
  Endpoint: /products, 
  Handler: fetchProducts)
 
--Fetch a Product by ID
+- Fetch a Product by ID
   (Method: GET, 
  Endpoint: /products/{id}, 
  Handler: fetchProducts)
 
 
- -Update a Product by ID
+ - Update a Product by ID
   (Method: PUT, 
  Endpoint: /products/{id}, 
  Handler: updateProduct)
 
-  -Delete a Product by ID
+  - Delete a Product by ID
   (Method: DELETE, 
  Endpoint: /products/{id}, 
  Handler: deleteProduct)
