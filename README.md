@@ -15,10 +15,16 @@
 
 ### Steps
 
-1. **Connect the postgre DB to servers env file**
+1. **Connect the postgre DB to servers .env file**
 2. **Clone the repository:**
    ```bash
    git clone https://github.com/SadeeMsr/inventory-management-system
    cd server
    npm install
    npm start
+## API Endpoints
+### Products
+- Create a product
+  Method: POST
+  Endpoint: /products
+  Handler: createProduct
