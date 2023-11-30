@@ -10,8 +10,8 @@
 ### Prerequisites
 - Node.js: [Install Node.js](https://nodejs.org/)
 - express.js: [Install express.js](https://expressjs.com/)
-- prisma: [Install Prisma]((https://www.prisma.io/))
-- postgresql: [Install Postgresql]((https://www.postgresql.org/))
+- prisma: [Install Prisma](https://www.prisma.io/)
+- postgresql: [Install Postgresql](https://www.postgresql.org/)
 
 ### Steps
 
