@@ -25,6 +25,27 @@
 ## API Endpoints
 ### Products
 - Create a product
-  Method: POST
-  Endpoint: /products
-  Handler: createProduct
+  (Method: POST, 
+  Endpoint: /products, 
+  Handler: createProduct)
+  
+- Fetch All Products
+  (Method: GET, 
+ Endpoint: /products, 
+ Handler: fetchProducts)
+
+-Fetch a Product by ID
+  (Method: GET, 
+ Endpoint: /products/{id}, 
+ Handler: fetchProducts)
+
+
+ -Update a Product by ID
+  (Method: PUT, 
+ Endpoint: /products/{id}, 
+ Handler: updateProduct)
+
+  -Delete a Product by ID
+  (Method: DELETE, 
+ Endpoint: /products/{id}, 
+ Handler: deleteProduct)
